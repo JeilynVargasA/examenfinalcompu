@@ -1,0 +1,28 @@
+.cuadrogrande {
+     width: 800px; 
+     margin: auto;
+     display: grid; 
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: 120px 120px 120px 120px; 
+     gap: 10px
+} 
+.cuadrogrande div{
+      border: 2px solid rgb(0, 0, 0);
+      display: flex;  
+     justify-content: center; 
+     align-items: center; 
+     padding: 5px; 
+} 
+
+.div1 {
+    grid-column: span 2; 
+}
+
+.div3 {
+    grid-row: span 2;
+}
+
+.div7 {
+    grid-column: span 2; 
+    grid-row: span 2;    
+}
